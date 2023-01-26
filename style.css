@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.logo img {
+    height: 60px;
+    margin-left: 50px;
+    cursor: pointer;
+
+
+}
+
+.youraccount {
+    margin-right: 50px;
+    background-color: rgb(231, 171, 191);
+    height: 50px;
+    width: 120px;
+    padding-top: 14px;
+    padding-left: 21px;
+    border-radius: 20px;
+}
+
+.youraccount a {
+    color: rgb(10, 48, 163);
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 50px;
+}
+
+.menu span {
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+
+.menu span a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+}
+
+.menu span a:hover {
+    color: black;
+}
+
+.menu span a::before {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+
+}
+
+.menu span a:hover::before {
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.stunningworkplace {
+    margin-top: 50px;
+    margin-left: 150px;
+    display: inline-block;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 80px;
+    bottom: 150px;
+    width: 29vw;
+    height: 60vh;
+}
+
+.stunningworkplace h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.stunningworkplace p {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    font-size: 13px;
+    word-spacing: 2px;
+    font-weight: bolder;
+    line-height: 20px;
+}
+
+.stunningworkplace .newaccount {
+    margin-top: 40px;
+    background-color: rgb(112, 72, 241);
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    padding-top: 15px;
+    padding-left: 37px;
+    border-radius: 20px;
+}
+
+.stunningworkplace .newaccount a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bolder;
+
+}
+
+.hugeimage {
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: 50px;
+    height: 90vh;
+    position: relative;
+    right: 150px;
+    width: 25vw;
+    /* border: 1px solid black; */
+}
+
+.hugeimage img {
+    width: 40vw;
+    height: 75vh;
+}
+
+.arrow {
+    position: relative;
+    top: 25px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.list {
+    position: relative;
+    bottom: 110px;
+    left: 270px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.listitem {
+    display: inline-block;
+    width: 400px;
+    flex-direction: row;
+    height: 70px;
+    background-color: rgb(250, 248, 248);
+    border-radius: 10px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+
+.listitem img,
+p {
+    margin-left: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.listitem img {
+    position: relative;
+    top: 8px;
+    height: 25px;
+}
+
+.listitem p {
+    position: relative;
+    top: 0px;
+}
+
+.listitem .design {
+    color: rgb(83, 81, 81);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    word-spacing: 5px;
+    width: 90px;
+}
+
+.listitem .user {
+    height: 30px;
+    width: 30px;
+
+}
+
+.listitem .date {
+    color: grey;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.listitem div {
+    position: relative;
+    left: 55px;
+    border-radius: 10px;
+    width: 20px;
+    height: 10px;
+}
+
+.listitem .pink {
+    background-color: #FED7DA;
+}
+
+.listitem .red {
+    background-color: #FD6534;
+}
+
+.listitem .green {
+    background-color: #9ED095;
+}
+
+.listitem .yellow {
+    background-color: #FFE4A0;
+}
+
+.listitem .bluetick {
+    display: none;
+    position: relative;
+    right: 47px;
+    top: 8px;
+    height: 25px;
+}
+
+.listitem:hover {
+    background-color: white;
+    box-shadow: 10px;
+    cursor: pointer;
+}
+
+.bluehover {
+    display: inline-block;
+    display: none;
+    background-color: blue;
+    height: 3px;
+    position: relative;
+    top: 36px;
+    width: 40px;
+
+}
+
+.bluehover:hover {
+    display: flex;
+}
+
+#homehover {
+
+    position: relative;
+    right: 42px;
+}
+
+#abouthover {
+    position: relative;
+    right: 42px;
+}
+
+#bloghover {
+    position: relative;
+    right: 34px;
+}
+
+#jobshover {
+    position: relative;
+    right: 35px;
+}
+
+@media all and (min-width:320px) and (max-width:480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .arrow img{
+        display: none;
+    }
+
+    .stunningworkplace {
+        position: relative;
+    }
+
+    .stunningworkplace h1 {
+        font-size: 10px;
+    }
+
+    .logo img {
+        width: 100px;
+        position: relative;
+        right: 30px;
+        
+    }
+
+    body {
+        position: relative;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0px;
+        top: 80px;
+
+    }
+    .youraccount {
+        position: absolute;
+        top: 250px;
+        left: 25px;
+    }
+    .stunningworkplace{
+        position: absolute;
+        top: 0px;
+        left: 40px;
+        }
+    .stunningworkplace h1{
+        font-size: 30px;
+        position: relative;
+        bottom: 50px;
+    }
+    .stunningworkplace p{
+        position: relative;
+        bottom: 85px;
+        height: 30px;
+    }
+    .stunningworkplace .newaccount{
+        position: relative;
+        top: 20px;
+    }
+    body{
+        position: relative;
+    }
+    .hugeimage{
+        position: absolute;
+        top: 290px;
+        right: 320px;
+       
+    }
+    .hugeimage img{
+        height: 390px;
+        width: 340px;
+    }
+    .list{
+        position: absolute;
+        top: 800px;
+        left: 0px;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+}
